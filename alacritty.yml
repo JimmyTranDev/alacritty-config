@@ -3,3 +3,10 @@ import:
 
 font:
   size: 16
+
+shell:
+  program: /bin/bash
+  args:
+    - -l
+    - -c
+    - "tmux attach || tmux"
